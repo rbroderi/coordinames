@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^map/([A-Za-z0-9_]+)$ /scripts/map.php?alias=$1
+RewriteRule ^map/([0-9]+)/([0-9]+) /scripts/map.php?x=$1&z=$2
