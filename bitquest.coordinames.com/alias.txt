@@ -1,0 +1,7 @@
+satoshi_town,0,0
+edoras,-8430,291
+plains_station,-8284,-37
+dodge,-12,-4952
+volcano_city,-26095,-79
+beach_station,-8985,3869
+mot,-4973,-384

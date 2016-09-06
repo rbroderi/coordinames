@@ -1,0 +1,177 @@
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ * 
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html,
+body {
+    margin:0;
+	padding:0;
+	height:100%;
+min-width: 600px;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+  text-align: center;
+	background:#ededed;
+	padding:10px;
+left:-10px;
+position: fixed;
+width:102%;
+  background-image: url("grass_top.png");
+    background-repeat: repeat;
+ background-size: 128px 128px;
+  image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+#content {
+padding-top:400px;
+	padding-bottom:100px; /* Height of the footer element */
+background-image: url("concrete50.png");
+background-repeat: repeat;
+background-color:#BBA;
+}
+#menu{
+height:25px;
+width:102%;
+background-color:#efefef;
+margin-bottom:-10px;
+margin-top:-62px;
+padding-top:.5em;
+}
+#footer {
+	width:100%;
+	height:1ex;
+	position:absolute;
+	bottom:0;
+	left:0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+font-size:75%;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+#row{
+left:-10px;
+  position: relative;
+top:100px;
+height:128px;
+width:102%;
+    background-image: url("grass_block.png");
+    background-repeat: repeat-x;
+}
+#row2{
+  position: relative;
+left:-10px;
+top:100px;
+height:128px;
+width:102%;
+    background-image: url("dirt.png");
+    background-repeat: repeat;
+  background-position: 60px 128px; 
+}
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+padding-left:1em;
+}
+#logo{
+  position: relative;
+top:-40px;
+left:-150px;
+margin-bottom:-150px;
+    margin-left: 250px;
+    margin-right: auto;
+
+}
+#subtitle{
+  position: absolute;
+left:40%;
+top:80px;
+	font-size:400%;
+   font-weight: bold;
+ z-index: 1;
+}
+#contentpad{
+padding-top:4em;
+padding-left:5em;
+padding-right:5em;
+}
+
+#link{
+ position: relative;
+ margin: auto;
+    width: 45%;
+font-size:150%;
+top:-70px;
+  border-radius: 25px;
+background: rgba(255, 255, 255, 0.75);
+left:-10px;
+min-width: 600px;
+}
+#form{
+ position: relative;
+ margin: auto;
+    width: 45%;
+top:-120px;
+height:128px;
+z-index:1;
+left:-10px;
+  min-width: 600px;
+}
+form {
+  display: table;
+ border-spacing: 10px;
+    border-radius: 25px;
+background: rgba(255, 255, 255, 0.75)
+}
+label {
+  display: table-row;
+font-size:140%;
+   font-weight: bold;
+}
+input {
+  display: table-cell;
+}
+.submit{
+font-size:100%;
+   font-weight: bold;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #555;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #555;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#555;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color:#555;
+  opacity: 1;
+}
+h2{
+font-size:200% !important;
+}
