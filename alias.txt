@@ -1,8 +1,0 @@
-satoshi_town,0,0,town
-edoras,-8430,291,town
-plains_station,-8284,-37,station
-dodge,-12,-4952,town
-volcano_city,-26095,-79,town
-beach_station,-8985,3869,station
-mot,-4973,-384,town
-woodwall,-8218,116,town
